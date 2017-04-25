@@ -1,0 +1,151 @@
+body {
+   background-image: url(../images/background.png);
+}
+
+h1{
+    color: bisque;
+    text-align: center;
+    font-size: 50px;
+}
+
+div {
+    width:90%;
+    background-color: bisque;
+    margin:auto;
+    border-radius:10px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    margin-top: 90px;
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    color: blue;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 20px;
+}
+p:nth-child(8), p:nth-child(9), p:nth-child(12),
+p:nth-child(15), p:nth-child(18){
+    margin-left: 23px;
+    margin-right: 23px
+}
+
+img {
+    width: 70%;
+    display: inline-block;
+	margin-left: 15%;
+}
+
+#dirk {
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+	text-decoration: none;
+    color: blue;
+
+}
+
+nav > ul {
+    list-style: none;
+    text-align: center;
+}
+li > a {
+    text-decoration: none;
+    color: red;
+    display: block;
+}
+.navigation {
+    display: inline-block;
+    font-family: Verdana;
+    width: 140px;
+    border-bottom: none;
+    height: 40px;
+    line-height: 50px;
+    font-size: 1.4em;
+    background-image: url(../images/background.png);
+    padding: 5px;
+    margin-right: 40px;
+    border-radius:9px;
+    margin-top: 7px
+}
+nav {
+    height: 65px;
+    background-color: bisque;
+    border-radius:19px;
+    width: 90%;
+    margin: auto
+}
+
+.trailerdiv {
+    margin-top: 60px;
+    width: 90%;
+    height: 500px;
+    padding-top: 50px;
+}
+iframe {
+    display: block;
+    margin:auto;
+}
+.trailerdiv > p {
+    font-weight: 900;
+}
+
+#suggest {
+    margin-left: 15%;
+    display: block;
+    width: 60%;
+	height: 120px;
+	border: 3px solid #cccccc;
+    background-image: url(../images/background.png);
+    color:red;
+
+}
+#sugdiv {
+    margin-top: 60px;
+    width: 90%;
+    height: 300px;
+    padding-top: 10px;
+}
+#sugdiv > p {
+    margin-bottom: 25px;
+}
+
+#pindiv {
+    margin-top: 60px;
+    width: 90%;
+    height: 300px;
+    padding-top: 50px;
+}
+#submitbutton {
+    font-size: 20px;
+    background-color: mediumaquamarine;
+    border: 5px solid
+    font-weight: bold;
+    color: white;
+    border-radius:5px;
+    margin-left: 15%;
+    margin-top: 10px
+}
+
+table {
+    margin-left:19%;
+    padding: 10px
+}
+.ratings {
+    text-align: center;
+}
+td {
+    padding: 4px;
+    color: blue;
+    font-size: 20px
+}
