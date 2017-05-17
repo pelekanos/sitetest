@@ -57,39 +57,55 @@ a:hover {
     text-decoration: none;
     color: blue;
 }
+/* header*/
+nav {
+    height: 65px;
+    background-color: bisque;
+    border-radius: 19px;
+    width: 100%;
+    display: flex;
+    justify-content: center;;
+}
 
-nav>ul {
+/*nav>ul {
     list-style: none;
     text-align: center;
-}
-
-li>a {
-    text-decoration: none;
-    color: red;
-    display: block;
-}
+}*/
 
 .navigation {
     display: inline-block;
     font-family: Verdana;
     width: 140px;
     border-bottom: none;
-    height: 40px;
-    line-height: 50px;
+    height: 50px;
     font-size: 1.4em;
     background-image: url(../images/background.png);
-    padding: 5px;
     margin-right: 40px;
     border-radius: 9px;
-    margin-top: 7px
+    margin-top: 7px;
+    text-align: center;;
+}
+.navigation:hover {
+    border-radius: 0;
 }
 
-nav {
-    height: 65px;
-    background-color: bisque;
-    border-radius: 19px;
-    width: 90%;
-    margin: auto
+li>a {
+    text-decoration: none;
+    color: red;
+    display: block;
+    line-height: 50px;
+}
+#dropdown{
+    position: absolute;
+    width: inherit;
+}
+
+#dropdown li{
+    border: 2px solid yellow;
+}
+
+.navigation:hover #dropdown{
+    background-color: aqua;
 }
 
 .trailerdiv {
